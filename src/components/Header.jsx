@@ -3,7 +3,11 @@ import Navigation from "./Navigation";
 const Header = () => {
   return (
     <header>
-      <img src="/images/logo.svg" alt="snap - organisation's logo" />
+      <img
+        className="logo-main"
+        src="/images/logo.svg"
+        alt="snap - organisation's logo"
+      />
       <Navigation />
     </header>
   );

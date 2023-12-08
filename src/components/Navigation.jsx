@@ -1,20 +1,20 @@
 const Navigation = () => {
   return (
     <nav>
-      <div>
+      <div className="hide">
         <img src="/images/icon-menu.svg" alt="menu icon" />
       </div>
-      <div>
+      <div className="hide">
         <img src="/images/icon-close-menu.svg" alt="close menu icon" />
       </div>
-      <ul>
+      <ul className="nav-content-main">
         <li>
-          Feature{" "}
+          Features{" "}
           <img
             src="/images/icon-arrow-down.svg"
             alt="icon representing sub navigation"
           />
-          <ul>
+          <ul className="hide">
             <li>
               <img src="/images/icon-todo.svg" alt="todo list icon" /> Todo List
             </li>
@@ -38,7 +38,7 @@ const Navigation = () => {
             src="/images/icon-arrow-down.svg"
             alt="icon representing sub navigation"
           />
-          <ul>
+          <ul className="hide">
             <li>History</li>
             <li>Our Team</li>
             <li>Blog</li>
@@ -47,8 +47,10 @@ const Navigation = () => {
         <li>Careers</li>
         <li>About</li>
       </ul>
-      <span>login</span>
-      <span>Register</span>
+      <div>
+        <span className="login">Login</span>
+        <span className="register">Register</span>
+      </div>
     </nav>
   );
 };

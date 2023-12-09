@@ -1,6 +1,6 @@
 const Logos = () => {
   return (
-    <div>
+    <div className="logos">
       <img src="/images/client-databiz.svg" alt="logo of client databiz" />
       <img
         src="/images/client-audiophile.svg"

@@ -15,7 +15,7 @@ const Content = () => {
       </section>
       <picture>
         <source
-          media="(min-width: 700px)"
+          media="(min-width: 900px)"
           srcSet="/images/image-hero-desktop.png"
         />
         <img src="/images/image-hero-mobile.png" alt="hero image" />

@@ -7,6 +7,10 @@ main
     width: calc( 100% - 2rem )
     max-width: 1180px
 
+    @media screen and (width < 900px)
+        grid-template-columns: 1fr
+        margin-bottom: 10rem
+
 section
     margin-top: 10.2rem
     margin-left: 3.6rem
@@ -18,7 +22,20 @@ section
     @media screen and (width < 1120px)
         margin-top: 0
 
+    @media screen and (width < 900px)
+        margin-top: 3rem
+        margin-inline: 1rem
+        text-align: center
+
+        p
+            max-width: 100%
+
 picture
     width: 100%
     max-width: 480px
     justify-self: flex-end
+
+    @media screen and (width < 900px)
+        justify-content: center
+        grid-row: 1/2
+        max-width: unset

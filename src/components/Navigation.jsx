@@ -8,13 +8,13 @@ const Navigation = () => {
         <img src="/images/icon-close-menu.svg" alt="close menu icon" />
       </div>
       <ul className="nav-content-main">
-        <li>
+        <li className="dd">
           Features{" "}
           <img
             src="/images/icon-arrow-down.svg"
             alt="icon representing sub navigation"
           />
-          <ul className="hide">
+          <ul className="drop-down dd1 hide">
             <li>
               <img src="/images/icon-todo.svg" alt="todo list icon" /> Todo List
             </li>
@@ -32,13 +32,13 @@ const Navigation = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="dd">
           Company{" "}
           <img
             src="/images/icon-arrow-down.svg"
             alt="icon representing sub navigation"
           />
-          <ul className="hide">
+          <ul className="drop-down dd2">
             <li>History</li>
             <li>Our Team</li>
             <li>Blog</li>
